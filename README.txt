@@ -3,6 +3,9 @@ MOUSE POINTING ENDPOINT PREDICTION
 USING KINEMATIC TEMPLATE MATCHING
 ===================================
 
+Pasqual, P.T. and Wobbrock, J.O. (2014). Mouse pointing endpoint prediction using kinematic template matching. 
+Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI '14). Toronto, Ontario (April 26-May 1, 2014). New York: ACM Press, pp. 743-752.
+
 The given application is divided into three sections:
 "Collect"
 "Analyze"
