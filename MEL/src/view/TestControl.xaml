@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="KTM.TestControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="500">
+    <Grid Background="#FFB7B7B7">
+        <Rectangle Fill="#FFB7B7B7" HorizontalAlignment="Left" Height="300" Stroke="#A1F43D" VerticalAlignment="Top" Width="500" StrokeThickness="5"/>
+        <Label Content="Subject ID:" Height="28" HorizontalAlignment="Left" Margin="30,28,0,0" Name="lblSubjID" VerticalAlignment="Top" FontSize="14" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="104,30,0,0" Name="txtSubjID" VerticalAlignment="Top" Width="43" Text="1" FontSize="14" TextChanged="SubjID_TextChanged" />
+        <GroupBox Header="Gender:" Height="69" HorizontalAlignment="Left" Margin="30,62,0,0" Name="groupBox1" VerticalAlignment="Top" Width="117" FontSize="14" BorderBrush="{x:Null}" BorderThickness="0">
+            <StackPanel>
+                <RadioButton Content="Male" Height="16" HorizontalAlignment="Left" Name="radioMale" VerticalAlignment="Top" IsChecked="True" Checked="Gender_RadioChecked" />
+                <RadioButton Content="Female" Height="16" HorizontalAlignment="Left" Margin="0,5,0,0" x:Name="radioFemale" VerticalAlignment="Top" Checked="Gender_RadioChecked" />
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Type:" Height="69" HorizontalAlignment="Left" Margin="30,129,0,0" Name="groupBox2" VerticalAlignment="Top" Width="117" FontSize="14" BorderBrush="{x:Null}" BorderThickness="0">
+            <StackPanel>
+                <RadioButton Content="1D" Height="16" HorizontalAlignment="Left" Name="radio1D" VerticalAlignment="Top" IsChecked="True" Checked="Type_RadioChecked" />
+                <RadioButton Content="2D" Height="16" HorizontalAlignment="Left" Margin="0,5,0,0" x:Name="radio2D" VerticalAlignment="Top" Checked="Type_RadioChecked" />
+            </StackPanel>
+        </GroupBox>
+        <Label Content="Trials Per Block:" Height="28" HorizontalAlignment="Left" Margin="37,217,0,0" Name="lblNumTrials" VerticalAlignment="Top" />
+        <Label Content="Number of Blocks:" Height="28" HorizontalAlignment="Left" Margin="37,251,0,0" Name="lblNumBlocks" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="150,219,0,0" Name="txtNumTrials" VerticalAlignment="Top" Width="51" Text="20" TextChanged="NumTrials_TextChanged" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="150,251,0,22" Name="txtNumBlocks" VerticalAlignment="Top" Width="51" Text="1" TextChanged="NumBlocks_TextChanged" />
+        <Button Content="Start" Height="23" HorizontalAlignment="Right" Margin="0,0,32,22" Name="btnStart" VerticalAlignment="Bottom" Width="75" Click="btnStart_Click" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Right" Margin="0,0,112,22" Name="btnCancel" VerticalAlignment="Bottom" Width="75" IsCancel="True" Click="btnCancel_Click" />
+        <ListBox x:Name="lst_libraries" HorizontalAlignment="Right" Height="169" Margin="335,28,32,0" VerticalAlignment="Top" Width="133"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="KTM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="800" Width="1200" ResizeMode="NoResize" WindowStyle="None" WindowState="Maximized">
+    <Grid KeyDown="Main_KeyDown">
+        <Rectangle Height="30" HorizontalAlignment="Stretch" Name="rectangle1" Stroke="{x:Null}" VerticalAlignment="Top" Width="Auto" Fill="#FFAAAAAA" Stretch="Fill" />
+        <Rectangle Height="30" HorizontalAlignment="Stretch" Name="rectangle2" Stroke="{x:Null}" VerticalAlignment="Bottom" Width="Auto" Fill="#FFAAAAAA" Stretch="Fill" />
+        <Menu Height="30" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="103" FontSize="14" Background="#FFAAAAAA" Margin="10,0,0,0">
+            <MenuItem Header="File" FontSize="16">
+                <MenuItem Header="Collect" Click="MenuItemCollect_Click" />
+                <MenuItem Header="Analyze" Click="MenuItemAnalyze_Click"/>
+                <MenuItem Header="Test" Click="MenuItemTest_Click" />
+                <MenuItem Header="Exit" Click="MenuItemExit_Click" />
+            </MenuItem>
+        </Menu>
+        <Canvas Height="Auto" HorizontalAlignment="Stretch" Margin="0,30,0,30" Name="mainCanvas" VerticalAlignment="Stretch" Width="Auto" MouseMove="Canvas_MouseMove" Background="#FFFBFBFB" MouseDown="Canvas_MouseDown" />
+        <Label x:Name="lbl_blocksCompleted" Content="Blocks: " HorizontalAlignment="Center" Margin="580,772,562,0" VerticalAlignment="Bottom" FontSize="14" Width="58" Visibility="Hidden"/>
+        <TextBlock x:Name="txt_blocksCompleted" HorizontalAlignment="Center" Margin="631,777,0,0" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="14" Visibility="Hidden"/>
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\bin\Debug\KTM.exe
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\bin\Debug\KTM.pdb
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\KTM.csprojResolveAssemblyReference.cache
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\MainWindow.baml
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\src\view\AnalyzeControl.baml
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\src\view\TestControl.baml
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\MainWindow.g.cs
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\src\view\AnalyzeControl.g.cs
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\src\view\CollectControl.g.cs
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\src\view\TestControl.g.cs
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\App.g.cs
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\KTM_MarkupCompile.cache
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\KTM_MarkupCompile.lref
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\src\view\CollectControl.baml
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\KTM.g.resources
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\KTM.Properties.Resources.resources
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\KTM.csproj.GenerateResource.Cache
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\KTM.exe
+C:\Users\wobbrock\Documents\My Universities\U Washington\Research\Software\Mel, the ML Mouse\KTM\MEL\obj\x86\Debug\KTM.pdb
+C:\Users\Phill\Downloads\KTM\KTM\MEL\obj\x86\Debug\KTM.exe
+C:\Users\Phill\Downloads\KTM\KTM\MEL\obj\x86\Debug\KTM.pdb
